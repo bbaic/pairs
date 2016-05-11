@@ -25,6 +25,7 @@ $(function() {
         pairs[pairs.length - 1].push(names[idx])
       }
     }
+    $('#pairs').html('');
     for (var idx in pairs) {
       $('#pairs').append(pairs[idx].join(' <-> ')).append('<br><br>');
     }
